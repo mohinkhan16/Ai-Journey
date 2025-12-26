@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background:#111827;
+}
+
+.navbar .nav-link {
+  color: white;          
+}
+
+.navbar .nav-link:hover {
+  color: #88b4f7;          
+}
+
+   .carousel-item img{
+    height: 600px;   
+    object-fit: cover;   
+  }
+
+.card{
+  background:#020617;
+  color:#e5e7eb;
+}
+.accordion-button::after {
+  filter: invert(1);
+}
